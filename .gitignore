@@ -1,5 +1,5 @@
 # Exclude environment variables
-.env
+credentials.env
 
 # Exclude backup files
 backups/
