@@ -1,4 +1,4 @@
-# TakeMyTickets Project
+# TakeMyTickets task 3
 ## Purpose
 This project demonstrates a Git branching strategy for version control.
 
@@ -17,3 +17,18 @@ This project demonstrates a Git branching strategy for version control.
 ## Contributors
 This project was built by Nerangen K as a part of internship task for TakemyTickets.
 - [Nerangen K](https://github.com/Nerangen)
+
+
+
+# TakeMyTickets task 4
+
+## Automate Backup/Restore for PostgreSQL
+
+### Description
+Scripts to automate PostgreSQL database backup and restoration.
+
+### Features
+- **Backup Script**: Saves database backups with timestamps.
+- **Restore Script**: Allows selecting a backup for restoration.
+  
+
