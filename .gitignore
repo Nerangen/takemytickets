@@ -1,0 +1,8 @@
+# Exclude environment variables
+.env
+
+# Exclude backup files
+backups/
+
+# Exclude log files
+logs/
