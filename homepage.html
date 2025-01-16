@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - TakeMyTickets</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(120deg, #4d79ff, #1a1a1a);
+            color: white;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: rgba(0, 0, 0, 0.9);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+        }
+        .brand-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+        .nav-links li {
+            margin: 0 15px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: #ff4d4d;
+        }
+        .search-bar {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+        }
+        .search-bar input {
+            width: 400px;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            font-size: 16px;
+        }
+        .hero-section {
+            text-align: center;
+            padding: 60px 30px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .cta-button {
+            padding: 15px 30px;
+            background: #ff4d4d;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            color: white;
+            transition: transform 0.3s;
+        }
+        .cta-button:hover {
+            transform: scale(1.1);
+        }
+        .features-section {
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+            gap: 20px;
+        }
+        .feature {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .feature:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.9);
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="brand-title">TakeMyTickets</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <div class="search-bar">
+        <input type="text" placeholder="Search for concerts, events, or venues...">
+    </div>
+    <section class="hero-section">
+        <h1>Discover Incredible Concerts Near You!</h1>
+        <p>Book tickets for concerts, festivals, and events now!</p>
+        <button class="cta-button">Explore Events</button>
+    </section>
+    <section class="features-section">
+        <div class="feature">
+            <h3>Exclusive Deals</h3>
+            <p>Find the best prices for your favorite events.</p>
+        </div>
+        <div class="feature">
+            <h3>Secure Payment</h3>
+            <p>Fast and secure booking guaranteed.</p>
+        </div>
+        <div class="feature">
+            <h3>Easy Access</h3>
+            <p>Get tickets on the go in just a few taps!</p>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 TakeMyTickets. All rights reserved.</p>
+    </footer>
+</body>
+</html>
