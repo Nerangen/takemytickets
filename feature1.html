@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .feedback-container {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 20px 40px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 1.2s ease-in-out;
+      width: 100%;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .feedback-container h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .feedback-container form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .feedback-container input,
+    .feedback-container textarea,
+    .feedback-container button {
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+    }
+
+    .feedback-container input,
+    .feedback-container textarea {
+      background-color: #fff;
+      color: #333;
+    }
+
+    .feedback-container textarea {
+      resize: none;
+      height: 100px;
+    }
+
+    .feedback-container button {
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .feedback-container button:hover {
+      background: linear-gradient(to right, #00f2fe, #4facfe);
+      transform: scale(1.05);
+    }
+
+    .feedback-container button:active {
+      transform: scale(1);
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .feedback-container .thanks-message {
+      display: none;
+      font-size: 20px;
+      margin-top: 20px;
+      color: #00f2fe;
+    }
+  </style>
+</head>
+<body>
+  <div class="feedback-container">
+    <h1>We Value Your Feedback!</h1>
+    <p>Tell us how we can improve your experience on TakeMyTickets.</p>
+    <form id="feedbackForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Feedback" required></textarea>
+      <button type="submit">Submit Feedback</button>
+    </form>
+    <p class="thanks-message" id="thanksMessage">Thank you for your feedback!</p>
+  </div>
+
+  <script>
+    const form = document.getElementById("feedbackForm");
+    const thanksMessage = document.getElementById("thanksMessage");
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      thanksMessage.style.display = "block";
+      form.reset();
+
+      // Optional: Add form submission functionality here, such as sending the feedback to a server.
+    });
+  </script>
+</body>
+</html>
