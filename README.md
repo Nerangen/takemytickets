@@ -44,9 +44,3 @@ Scripts to automate PostgreSQL database backup and restoration.
 This project was built by Nerangen K as a part of internship task for TakemyTickets.
 - [Nerangen K](https://github.com/Nerangen)
   
-## Screenshots
-Several screenshots are added to show the work done 
-![Image- 1](task4-1.png)
-![Image- 2](task4-2.png)
-![Image- 3](task4-3.png)
-![Image- 4](task4-4.png)
