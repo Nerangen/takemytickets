@@ -20,10 +20,10 @@ This project was built by Nerangen K as a part of internship task for TakemyTick
 
 ## Screenshots
 Several screenshots are added to show the work done 
-![Image- 1](images/task3-1.png)
-![Image- 2](images/task3-2.png)
-![Image- 3](images/task3-3.png)
-![Image- 4](images/task3-4.png)
+![Image- 1](task3-1.png)
+![Image- 2](task3-2.png)
+![Image- 3](task3-3.png)
+![Image- 4](task3-4.png)
 
 
 
@@ -46,7 +46,7 @@ This project was built by Nerangen K as a part of internship task for TakemyTick
   
 ## Screenshots
 Several screenshots are added to show the work done 
-![Image- 1](images/task4-1.png)
-![Image- 2](images/task4-2.png)
-![Image- 3](images/task4-3.png)
-![Image- 4](images/task4-4.png)
+![Image- 1](task4-1.png)
+![Image- 2](task4-2.png)
+![Image- 3](task4-3.png)
+![Image- 4](task4-4.png)
